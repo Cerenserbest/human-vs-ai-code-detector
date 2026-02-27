@@ -38,3 +38,25 @@ humanai/
 ├── train_model_2_lstm.py      # LSTM modeli eğitim betiği
 ├── train_model_3_gru.py       # GRU modeli eğitim betiği
 └── veri_cekme_human.py        # GitHub API üzerinden veri toplama kodu
+▶️ Nasıl Çalıştırılır?
+1. Projeyi Klonlayın
+Bash
+git clone [https://github.com/Cerenserbest/human-vs-ai-code-detector.git](https://github.com/Cerenserbest/human-vs-ai-code-detector.git)
+cd human-vs-ai-code-detector
+2. Gerekli Kütüphaneleri Yükleyin
+Bash
+pip install flask tensorflow scikit-learn pandas numpy
+3. Uygulamayı Başlatın
+Bash
+python app.py
+Uygulama başladıktan sonra terminalde çıkan adrese (genellikle https://www.google.com/url?sa=E&source=gmail&q=http://127.0.0.1:5000) giderek web arayüzü üzerinden kod analizi yapmaya başlayabilirsiniz.
+
+🎯 Hedefler
+Yapay zeka tarafından üretilen kod içeriklerinin otomatik tespiti.
+
+Farklı NLP modellerinin kod analizi üzerindeki başarı oranlarının karşılaştırılması.
+
+Kodun semantik yapısını anlama becerisine sahip modellerin geliştirilmesi.
+
+👩‍💻 Yazar
+Ceren Serbest
